@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{ int target; int result;
+int arr= [2,4,6,3,8]
+cout<<("enter a target");
+cin>> target;
+def sum(arr,target)
+    for i in range(len(l)-1):
+        for j in range(i+1,len(l)):
+            {if (l[i] + l[j]==target):
+                return i,j;
+             }
+    return -1;
+result=(sum(arr,target))
+if (result!=-1)
+    cout<<("the address is",result);
+else
+    cout<<("not found");
+return 0;
+}
